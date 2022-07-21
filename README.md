@@ -1,14 +1,14 @@
-# AppCountries
+# App Countries
 
 ## UX
 
 There is a list of counties and the user could choose one to get a short description of that country.
 
-## Architecure
+## Architecture
 
 MVVM
 
-## Clean Architecure
+## Clean Architecture
 
 - Data - There are our communication with data services
 - Domain - There are entity classes and use cases
@@ -23,4 +23,3 @@ MVVM
 ## Features to be developed
 - Unit tests
 - UI tests
- 
