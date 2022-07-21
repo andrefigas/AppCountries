@@ -3,4 +3,6 @@
 
     <string name="summary_error">Summary unavailable</string>
     <string name="areas_error">Error on get countries</string>
+    <string name="flag_content_description">flag</string>
+
 </resources>
