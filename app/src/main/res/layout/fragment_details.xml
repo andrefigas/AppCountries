@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presenter.details.DetailsFragment">
+
+    <TextView
+        android:id="@+id/details_title_tv"
+        android:textSize="22sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        tools:text="Portugal" />
+
+    <TextView
+        android:textAllCaps="true"
+        android:id="@+id/details_code_tv"
+        android:textSize="22sp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/details_title_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        tools:text="PT" />
+
+    <TextView
+        android:id="@+id/details_description_tv"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/details_code_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum" />
+
+    <ProgressBar
+        android:id="@+id/details_progress_pb"
+        app:layout_constraintTop_toBottomOf="@+id/details_code_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        style="?android:attr/progressBarStyle"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
